@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "tpapi-executor",
+    "name": "tpapi",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "w83p5zshoh",
+    "module": "server"
+  }
+}
