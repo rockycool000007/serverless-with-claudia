@@ -1,0 +1,10 @@
+Write your code.
+
+npm install claudia-api-builder --save
+npm install claudia -g
+
+// server is name of the entry file
+claudia create --region us-east-1 --api-module server --name tpapi
+
+// Make changes in the api and then update the deployed code
+claudia update --region us-east-1 --api-module server --name tpapi
